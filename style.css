@@ -12,37 +12,46 @@ body {
 }
 
 body:hover {
-
     background: #808080;
-
+}
+img {
+    border-radius: 50%;
+    position: absolute;
+   top: 5%;
+   left: 50%;
+   transform: translateX(-50%);
+   
 }
 h1 {
-    text-align: center;
-    padding: 50px 0;
+    top:30%;
+    left: 50%;
     font-family: arial;
-
+    position: absolute;
+    transform: translate(-50%,-50%);
 }
-
+p{
+    top:50%;
+    left: 50%;
+    font-family: arial;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
 ul {
+
+    top:60%;
+    left: 50%;
+    font-family: arial;
+    position: absolute;
+    transform: translate(-50%,-50%);
     display: flex;
     list-style: none;
 }
 
 .sns-btn li {
     position: relative;
-
-    left: -120px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
 
-img {
-    border-radius: 50%;
-    top: 70px;
-    left: 900px;
-    bottom: 0;
-    margin: auto 0;
-    position: relative;
-}
